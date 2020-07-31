@@ -12,7 +12,7 @@ public class MoviesApp extends MoviesIO {
 		LinkedList<String> userChoiceOfCategory = new LinkedList<>();
 		boolean yesNo;
 		System.out.println("Welcome to the Movie List Application");
-		for (int i = 0; i < 100; i++) {
+		for (int i = 0; i <=100; i++) {
 			list.add(getMovie(i));
 		}
 		System.out.println("There are 100 movies in this list.");
